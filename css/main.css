@@ -1,0 +1,203 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    height: 660px;
+}
+
+.landing{
+    background-image: url(../imgs/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+.landing-content{
+    z-index: 99;
+    text-align: center;
+    color: #fff;
+}
+
+.landing-content h1{
+    font-size: 60px;
+}
+
+
+.landing .sideNav .nav{
+    font-size:30px;
+    cursor:pointer;
+    position: absolute;
+    left: 25px;
+    z-index: 50;
+    color: #fff;
+}
+
+nav{
+    position: absolute;
+    left: -250px;
+    top: 0;
+    background-color: #111;
+    color: #fff;
+    z-index: 500;
+    width: 250px;
+    height: 100%;
+}
+
+nav button{
+    color: #fff !important;
+    margin: 20px;
+    font-size: 30px !important;
+}
+
+nav a{
+    font-size: 30px;
+    margin: 0 10px ;
+}
+
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.singers {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.singers .singer .content-header{
+    background-color: rgba(214, 46, 51 , 0.6);
+    font-size: 28px;
+}
+
+
+.singers .singer .content-body{
+    background-color: #ccc;
+    font-size: 16px;
+    display: none;
+}
+
+.singers .singer .content-body.first{
+    display: block;
+}
+
+.singers .singer h3{
+    color: #fff;
+    cursor: pointer;
+}
+
+.singers .singer h3,
+.singers .singer p{
+    padding: 10px;
+    margin: 0;
+}
+
+.show{
+    display: block !important;
+}
+
+.counter {
+    background-image: url(../imgs/counter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.counter .container{
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+
+.counter .col-md-3 .timer{
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.form{
+    margin-top: 100px;
+}
+
+.form .container{
+    padding:100px 0;
+}
+
+.form .container p,
+.form .container i{
+color: #777;
+}
+
+.form .container .contact-info i{
+    margin-right: 10px;
+}
+
+.form .container .contact-info p:nth-of-type(3){
+    color: #D62E33;
+}
+
+
+
+.form .container .socialmedia i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.4s, color 0.4s;
+    -webkit-transition: background 0.4s, color 0.4s;
+    -moz-transition: background 0.4s, color 0.4s;
+    -ms-transition: background 0.4s, color 0.4s;
+    -o-transition: background 0.4s, color 0.4s;
+}
+
+.form .container .socialmedia i:hover{
+    background-color: #D62E33;
+    border-color: #D62E33;
+    color: #fff;
+}
+
+.form .container form p{
+    color: #000;
+}
+
+.form .container form p span{
+    color: #D62E33;
+}
+
+.form .container form textarea{
+    height: 200px;
+    resize: vertical;
+}
+
+.form .container form button{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}

@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Assignment 12</title>
+</head>
+<body class="position-relative">
+    
+    <!-- Landing -->
+    <header id="#home">
+        <section class="landing d-flex justify-content-center align-items-center flex-column position-relative">
+            <div class="landing-content position-relative">
+                <h1>ُEgyption Party</h1>
+                <p>Let's have fun!</p>
+            </div>
+            <div class="sideNav">
+                <span class="nav">☰ Open</span>
+            </div>
+            <div class="overlay position-absolute"></div>
+        </section>
+        <nav class="d-flex flex-column justify-content-start gap-4">
+            <button class="closeBtn btn align-self-end">X</button>
+            <span><a href="#home">Home</a></span>
+            <span><a href="#duration">Duration</a></span>
+            <span><a href="#details">Details</a></span>
+            <span><a href="#contact">Contact</a></span>
+        </nav>
+    </header>
+
+    <main>
+        <section id="details" class="container py-5">
+            <div class="singers py-5">
+                <div class="singer">
+                    <div class="content-header">
+                        <h3>Singer One</h3>
+                    </div>
+                    <div class="content-body first">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                </div>
+                <div class="singer two">
+                    <div class="content-header">
+                        <h3>Singer Two</h3>
+                    </div>
+                    <div class="content-body">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                </div>
+                <div class="singer">
+                    <div class="content-header">
+                        <h3>Singer Three</h3>
+                    </div>
+                    <div class="content-body">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                </div>
+                <div class="singer">
+                    <div class="content-header">
+                        <h3>Singer Four</h3>
+                    </div>
+                    <div class="content-body">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="duration" class="counter position-relative p-5">
+            <div class="container p-5">
+                <div class="timerContainer row text-center">
+                    
+                </div>
+            </div>
+            <div class="overlay position-absolute"></div>
+        </section>
+
+        <section id="contact" class="form">
+            <div class="container">
+                <h2 class="text-uppercase fw-bold">Join us</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h4 class="fw-bold text-uppercase">Contact Info</h4>
+                        <div class="contact-info d-flex flex-column text-center py-3">
+                            <p class="text-center">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+                            <p class="mt-4"><i class="fa fa-map-marker"></i> New Street 22545, Nexa Road, New York City, USA</p>
+                            <p><i class="fa fa-envelope"></i> hello@uigrid.com</p>
+                            <p><i class="fa fa-phone"></i> 001-000-000-000</p>
+                        </div>
+                        <div class="socialmedia">
+                            <i class="fab fa-twitter fa-fw"></i>
+                            <i class="fab fa-facebook-f fa-fw"></i>
+                            <i class="fab fa-instagram fa-fw"></i>
+                            <i class="fab fa-dribbble fa-fw"></i>
+                            <i class="fab fa-pinterest fa-fw"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <input type="text" name="userName" id="userName" placeholder="Enter Name" class="form-control mb-3">
+                            <input type="email" name="userEmail" id="userEmail" placeholder="Enter Email" class="form-control mb-3">
+                            <textarea id="textArea" name="message" id="message" class="form-control mb-3" maxlength="100"></textarea>
+                            <p class="mb-3"><span id="counterz">100</span> Characters Reamining</p>
+                            <button class="btn w-25 submit text-uppercase">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
